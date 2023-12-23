@@ -42,7 +42,7 @@ h3 {
 }
 
 .col {
-    padding:0px 70px 10px 70px;
+    padding: 0px 70px 10px 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,9 +60,19 @@ input {
     border-radius: 5px;
     border-color: transparent;
     background-color: rgba(225, 220, 220, 0.959);
+    background-color: lightgreen;
 }
 
 label {
     color: white;
     font-size: 22px;
+}
+
+@media screen and (max-width: 500px) {
+    input {
+        background-color: lightgreen;
+    }
+    .col{
+        padding: 10px 0px 0px 0px;
+    }
 }

@@ -1,4 +1,4 @@
-const endDate = 'January 01 2024 00:00:00'
+const endDate = 'January 01 2024'
 const input = document.querySelectorAll('input')
 document.getElementById('endDate').innerHTML = endDate
 
